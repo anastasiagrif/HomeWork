@@ -1,0 +1,18 @@
+body {
+	margin:0;
+}
+.box {
+	width:200px;
+	height:200px;
+	background: green;
+	margin-top: 50px;
+	margin-left:50px;
+}
+.box:after {
+	content: "123";
+	color:white;
+	display:block;
+	background: red;
+	width:100px;
+	height:100px;
+}

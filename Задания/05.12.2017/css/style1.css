@@ -1,0 +1,36 @@
+body {
+	width: 100%;
+	margin: 0px;
+}
+.block_red {
+  float:left;
+  background-color:red;
+  width:40%;
+  height:1000px;
+}
+.block_yellow {
+  background-color:yellow;
+  height:60%;
+  margin-top: 0px;
+  padding: 10px;
+}
+.line_red_1 {
+  border: 1px solid red;
+  padding: 20px;
+  margin-top: 10px;
+   height:530px;
+}
+.block_green {
+  float:right;
+  background-color:green;
+  width:60%;
+  height:1000px;
+  
+}
+.line_red_2 {
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px;
+  margin-top: 20px;
+  height:900px;
+}

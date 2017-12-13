@@ -1,0 +1,35 @@
+<style>
+.box {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.block01, .block02, .block03 {
+	display: inline-block;
+	width: 33%;
+	height: 300px;
+}
+.block01 {
+	background: green;
+}
+.block02 {
+	background: yellow;
+	margin-left: -4px;
+}
+.block03 {
+	background: orange;
+	margin-left: -4px;
+}
+
+@media (max-width: 1000px) {
+	.block01, .block02, .block03 {
+		width: 100%;
+	}
+}
+</style>
+
+<div class="box">
+	<div class="block01"></div>
+	<div class="block02"></div>
+	<div class="block03"></div>
+</div>
