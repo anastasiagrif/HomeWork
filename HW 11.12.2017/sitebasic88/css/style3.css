@@ -63,13 +63,19 @@
 	margin-right: 0;
 	background: #4b4d4b;
 }
-
+.small_pic_left {
+	
+	float:left;
+	margin-left:10px;
+}
 .small_pic_center {
 	margin-left: 22px;
+	float:left;
 }
 
 .small_pic_right {
 	margin-left:21px;
+	float:left;
 }
 
 .main_pic_text {
@@ -89,13 +95,18 @@
 }
 .text_left {
 	float:left;
+	padding-left: 20px;
 }
 .text_center {
 	margin-left: 20px;
+	padding-left: 20px;
+	float:left;
 }
 
 .text_right {
 	margin-left:20px;
+	padding-left: 20px;
+	float:left;
 }
 .pic_text h3 {
 	font-style: italic;
