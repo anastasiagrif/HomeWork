@@ -28,7 +28,7 @@ body {
 .logo_small {
 	background: #FDDC22;
 	margin-left: 20px;
-	color:#98CA32;
+	color: #8601AF;
 	font-weight:600;
 }
 
@@ -39,9 +39,10 @@ body {
 }
 
 .nav_link {
-	color: #263409;
 	text-align:center;
 	margin-right:30px;
+	text-decoration: none;
+	color:#2B3409;
 }
 .contanier_main {
 	width:100%;
@@ -108,26 +109,30 @@ body {
 .text_center {
 	margin-left: 20px;
 	float:left;
+	padding-left:10px;
 }
 
 .text_right {
 	margin-left:20px;
 	float:left;
+	padding-left:15px;
 }
 .pic_text h3 {
 	font-style: italic;
 	
 }
 .main_link {
-	color:#2B3409;
 	font-weight:300;
+	text-decoration: none;
+	color: #8601AF;
 	
 }
 .main_link:hover {
-	color: #B2D732;
+	color: orange;
 	font-weight:300;
 	text-decoration:none;
 }
+
 .main_link_right {
 	float:right;
 }
@@ -142,7 +147,6 @@ body {
 	float:left;
 	margin-top: -10px;
 	margin-right: 40px;
-	
 	
 }
 .block_bottom_text h2 {
