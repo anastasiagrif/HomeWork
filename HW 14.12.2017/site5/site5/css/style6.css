@@ -119,6 +119,7 @@ body {
 	height: 600px;
 	margin: 0 auto;
 	border: 2px solid black;
+	background: white;
 	
 }
 .block01-pics {
@@ -183,9 +184,13 @@ body {
 .text_about {
     display: inline-block;
     float: left;
-    width: 35%;
+    width: 40%;
     font-size: 14px;
     margin-top: 50px;
+}
+.text_about h1 {
+	color:#b300b3;
+	font-weight: 500;
 }
 .button_about {
 	padding: 5px 15px 5px 15px;
@@ -194,15 +199,16 @@ body {
     text-align: center;
     color: #828282
 }
+.but_right {
+	margin-left: 15px;
+}
 .pics_about {
     display: inline-block;
     float: right;
     margin-top: -20px;
     margin-right: -10px;
 }
-.but_right {
-	margin-left: 15px;
-}
+
 
 
 .contanier_block_03 {
@@ -211,7 +217,7 @@ body {
 }
 .block03 {
     width: 1000px;
-    height: 600px;
+	height: 700px;
     margin: 0 auto;
     border: 2px solid black;
     position: relative;
@@ -225,11 +231,76 @@ body {
     background-image: repeating-linear-gradient(to bottom right,rgb(72, 166, 240) 0%,rgb(164, 74, 232) 100%);
     background-image: -ms-repeating-linear-gradient(top left,rgb(72, 166, 240) 0%,rgb(164, 74, 232) 100%);
 }
+.block03_texts{
+    position: relative;
+	display:block;
+	border: 2px solid black;
+	height: 180px;
+}
 .block03_text {
     width: 40%;
     text-align: center;
-    display: inline-block;
     position: absolute;
     top: 0;
     left: 300px;
+	color:white;
+	display: block;
+	
 }
+.block03_text h1 {
+	font-weight: 600;
+	
+}
+
+.block03_one {
+	display: inline-block;
+	width: 30%;
+	border: 2px solid red;
+	font-size: 14px;
+	float:left;
+	height: 500px;
+	
+}
+/*.text_one {
+	display: inline-block;
+	
+	
+}
+.text_two {
+	display: inline-block;
+	
+	
+} 
+.text_three {
+	display: inline-block;
+	
+}
+
+.block03_two {
+	display: inline-block;
+	height: 500px;
+	width: 32%;
+    float: left;
+  
+	
+}*/
+.block03_pic {
+	float: left;
+    top: -52px;
+    left: 230px;
+    position: absolute;
+}
+.block03_three {
+	display: inline-block;
+	width: 30%;
+	border: 2px solid red;
+    height: 500px;
+	float: right;
+    margin-left: 10px;
+	
+}
+
+
+
+
+
