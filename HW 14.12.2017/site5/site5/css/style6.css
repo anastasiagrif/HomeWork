@@ -306,7 +306,6 @@ body {
 .block03_one_text_2 {
 	float:left;
 	width:50%;
-	width:50%;
 	font-size: 14px;
 	color: white;
 }
@@ -337,6 +336,54 @@ body {
 	text-align: right;
 }
 .block03_one_svg_3 {
+	float:left;
+	width:35%;
+	border: 1px solid white;
+}
+
+.block03_three_cell_1 {
+	width:100%;
+	height:170px;
+}
+.block03_three_text_1 {
+	float:left;
+	width:50%;
+	font-size: 14px;
+	color: white;
+}
+.block03_three_svg_1 {
+	float:left;
+	width:35%;
+	border: 1px solid white;
+}
+
+.block03_three_cell_2 {
+	width:100%;
+	height:170px;
+}
+.block03_three_text_2 {
+	float:left;
+	width:50%;
+	font-size: 14px;
+	color: white;
+}
+.block03_three_svg_2 {
+	float:left;
+	width:35%;
+	border: 1px solid white;
+}
+
+.block03_three_cell_3 {
+	width:100%;
+	height:170px;
+}
+.block03_three_text_3 {
+	float:left;
+	width:50%;
+	font-size: 14px;
+	color: white;
+}
+.block03_three_svg_3 {
 	float:left;
 	width:35%;
 	border: 1px solid white;
