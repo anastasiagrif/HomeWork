@@ -217,7 +217,7 @@ body {
 }
 .block03 {
     width: 1000px;
-	height: 700px;
+	height: 750px;
     margin: 0 auto;
     border: 2px solid black;
     position: relative;
@@ -259,34 +259,13 @@ body {
 	font-size: 14px;
 	float:left;
 	height: 500px;
-	
-}
-/*.text_one {
-	display: inline-block;
-	
-	
-}
-.text_two {
-	display: inline-block;
-	
-	
-} 
-.text_three {
-	display: inline-block;
+	margin-top: 10px;
 	
 }
 
-.block03_two {
-	display: inline-block;
-	height: 500px;
-	width: 32%;
-    float: left;
-  
-	
-}*/
 .block03_pic {
 	float: left;
-    top: -52px;
+    top: -50px;
     left: 230px;
     position: absolute;
 }
@@ -297,10 +276,39 @@ body {
     height: 500px;
 	float: right;
     margin-left: 10px;
+	margin-top: 10px;
 	
 }
 
+.block03_one_text_1 {
+	float:left;
+	width:50%;
+}
+.block03_one_svg_1 {
+	float:left;
+	width:35%;
+	border: 1px solid white;
+}
 
+.block03_one_text_2 {
+	float:left;
+	width:50%;
+}
+.block03_one_svg_2 {
+	float:left;
+	width:35%;
+	border: 1px solid white;
+}
+
+.block03_one_text_3 {
+	float:left;
+	width:50%;
+}
+.block03_one_svg_3 {
+	float:left;
+	width:35%;
+	border: 1px solid white;
+}
 
 
 
