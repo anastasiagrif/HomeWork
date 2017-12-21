@@ -256,7 +256,6 @@ body {
 .block03_one {
 	display: inline-block;
 	width: 30%;
-	border: 2px solid red;
 	font-size: 14px;
 	float:left;
 	height: 500px;
@@ -273,7 +272,6 @@ body {
 .block03_three {
 	display: inline-block;
 	width: 30%;
-	border: 2px solid red;
     height: 500px;
 	float: right;
     margin-left: 10px;
@@ -285,26 +283,26 @@ body {
 	height:170px;
 }
 .block03_one_text_1 {
-	float:left;
-	width:50%;
-	font-size: 14px;
-	font-size: 16px;
+    float: left;
+    width: 50%;
+    font-size: 14px;
     color: white;
     padding: 10px;
+    text-align: right;
 }
 .block03_one_text_1 h5 {
 	font-weight: 500px;
-	text-align: right;
+	
 }
 
 
 .block03_one_icons_1 {
     float: left;
     width: 18%;
-    margin-left: 30px;
+    margin-left: 50px; 
     margin-top: 45px;
     border: 1px solid #fff0f5;
-    border-radius: 50px;
+    border-radius: 15px;
     padding: 10px
 }
 
@@ -314,10 +312,12 @@ body {
 	height:170px;
 }
 .block03_one_text_2 {
-	float:left;
-	width:50%;
-	font-size: 14px;
-	color: white;
+    float: left;
+    width: 50%;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    text-align: right;
 }
 
 .block03_one_text_2 h5 {
@@ -330,7 +330,7 @@ body {
     margin-left: 50px;
     margin-top: 45px;
     border: 1px solid #fff0f5;
-    border-radius: 50px;
+    border-radius: 15px;
     padding: 10px;
 }
 
@@ -339,11 +339,13 @@ body {
 	height:170px;
 }
 .block03_one_text_3 {
-	float:left;
-	width:50%;
-	width:50%;
-	font-size: 14px;
-	color: white;
+    float: left;
+    width: 50%;
+    width: 50%;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    text-align: right;
 }
 .block03_one_text_2 h5 {
 	font-weight: 500px;
@@ -352,10 +354,10 @@ body {
 .block03_one_icons_3 {
     float: left;
     width: 18%;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 45px;
     border: 1px solid #fff0f5;
-    border-radius: 50px;
+    border-radius: 15px;
     padding: 10px;
 }
 
@@ -370,9 +372,13 @@ body {
 	color: white;
 }
 .block03_three_svg_1 {
-	float:left;
-	width:35%;
-	border: 1px solid white;
+    float: left;
+    width: 18%;
+    margin-right: 50px;
+    margin-top: 45px;
+    border: 1px solid #fff0f5;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .block03_three_cell_2 {
@@ -386,9 +392,13 @@ body {
 	color: white;
 }
 .block03_three_svg_2 {
-	float:left;
-	width:35%;
-	border: 1px solid white;
+    float: left;
+    width: 18%;
+    margin-right: 50px;
+    margin-top: 45px;
+    border: 1px solid #fff0f5;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .block03_three_cell_3 {
@@ -402,9 +412,13 @@ body {
 	color: white;
 }
 .block03_three_svg_3 {
-	float:left;
-	width:35%;
-	border: 1px solid white;
+    float: left;
+    width: 18%;
+    margin-right: 50px;
+    margin-top: 45px;
+    border: 1px solid #fff0f5;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 
