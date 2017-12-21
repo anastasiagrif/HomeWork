@@ -192,6 +192,7 @@ body {
 .text_about h1 {
 	color:#b300b3;
 	font-weight: 500;
+    letter-spacing: 3px;
 }
 .button_about {
 	padding: 5px 15px 5px 15px;
@@ -220,7 +221,6 @@ body {
     width: 1000px;
 	height: 750px;
     margin: 0 auto;
-    border: 2px solid black;
     position: relative;
 	background-color: #7678ec;
     /* IE9, iOS 3.2+ */
@@ -235,7 +235,6 @@ body {
 .block03_texts{
     position: relative;
 	display:block;
-	border: 2px solid black;
 	height: 180px;
 }
 .block03_text {
