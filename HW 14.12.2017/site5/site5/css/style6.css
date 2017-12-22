@@ -440,16 +440,19 @@ body {
     height: 600px;
     padding-top: 100px;
     width: 45%;
+    margin-left:15px;
 }
 
 .bea_design_left h1 {
-    color: #b300b3;
-    font-weight: 500;
-    letter-spacing: 2px;
-    display: inline-block;
-}
+     color: #b300b3;
+     font-weight: 500;
+     letter-spacing: 2px;
+     display: inline-block;
+     
+    }
 .bea_design_left p {
     display: inline-block;
+    
 }
 
 .bea_design_icon {
@@ -475,4 +478,30 @@ body {
     float: left;
     margin-top: -120px;
     margin-left: -115px;
+}
+/* Дизайн блок 3 */
+.design_three {
+    margin-top: 50px;
+    margin-top: -5px;
+}
+
+
+.design_left {
+    float: left;
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    margin-left: 15px;
+    margin-top: 30px;
+    
+}
+
+.design_pic {
+    width: 125%;
+    float: left;
+    margin-top: -190px;
+}
+.design_right {
+    margin-left: 20px;
+    margin-top
 }
