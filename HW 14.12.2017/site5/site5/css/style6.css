@@ -429,7 +429,7 @@ body {
     width: 1000px;
     height: 750px;
     margin: 0 auto;
-    border: 2px solid red;
+
     background: white;
     padding-top: 70px;
 }
@@ -437,9 +437,8 @@ body {
     float: left;
     position: relative;
     display: inline-block;
-    border: 2px solid blue;
     height: 600px;
-    padding-top: 70px;
+    padding-top: 100px;
     width: 45%;
 }
 
@@ -464,6 +463,16 @@ body {
 .bea_design_right {
     float: left;
     display: inline-block;
-    border: 2px solid purple;
     width: 45%;
+    height: 500px;
+    background: url(../svg/pantone.svg);
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.bea_design_pic {
+    width: 145%;
+    float: left;
+    margin-top: -120px;
+    margin-left: -115px;
 }
