@@ -120,6 +120,7 @@ body {
 /* Второй блок */
 .contanier_block {
     width: 100%;
+    margin-top:-50px;
 }
 
 .block01 {
@@ -559,11 +560,11 @@ body {
     margin-left: 15px;
 }
 
-    .works_left h3 {
-        color: #b300b3;
-        font-weight: 600;
-        display: inline-block;
-    }
+.works_left h3 {
+    color: #b300b3;
+    font-weight: 600;
+    display: inline-block;
+}
 
 .works_cell_1 {
     width: 100%;
@@ -585,4 +586,15 @@ body {
 
 .block03_one_text_2 h5 {
     font-weight: 500px;
+}
+
+.works_right {
+    background: url(../img/works.png);
+    background-size: cover;
+    float: right;
+    display: inline-block;
+    height: 600px;
+    width: 50%;
+    margin-top: 120px;
+    margin-right: -20px;
 }
