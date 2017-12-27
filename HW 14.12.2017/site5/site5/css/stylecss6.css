@@ -641,3 +641,63 @@ body {
     opacity: 1;
     box-shadow: 20px 20px 60px black;
 }
+/*Download SmartApp*/
+
+.contanier_download {
+    width: 100%;
+}
+
+.download_smart {
+    background: white;
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    position:relative;
+    /*background: linear-gradient(65deg, #48a6f0, #a44ae8);*/
+    background-color: #7678ec;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiM0OGE2ZjAiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2E0NGFlOCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0, rgb(72, 166, 240)),color-stop(1, rgb(164, 74, 232)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(top left,rgb(72, 166, 240) 0%,rgb(164, 74, 232) 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to bottom right,rgb(72, 166, 240) 0%,rgb(164, 74, 232) 100%);
+    background-image: -ms-repeating-linear-gradient(top left,rgb(72, 166, 240) 0%,rgb(164, 74, 232) 100%);
+}
+.download_smart_pic {
+    width:25px;
+    height:25px;
+}
+
+.download_smart_button_1 {
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    padding: 25px 35px 25px 35px;
+    border: 2px solid white;
+    border-radius: 35px;
+}
+.download_smart_button_2 {
+    position: absolute;
+    top: 130px;
+    left: 450px;
+    padding: 25px 35px 25px 35px;
+    border: 2px solid white;
+    border-radius: 35px;
+}
+.download_smart_button_3 {
+    position: absolute;
+    top: 130px;
+    left: 700px;
+    padding: 25px 35px 25px 35px;
+    border: 2px solid white;
+    border-radius: 35px;
+}
+.download_smart_caption {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
