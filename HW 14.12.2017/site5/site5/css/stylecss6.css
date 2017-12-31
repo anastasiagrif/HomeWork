@@ -738,27 +738,259 @@ body {
 /* FAQs */
 .contanier_faq {
     width: 100%;
+    
 }
 
 .block_faq {
     width: 1000px;
     height: 750px;
+    background: #f5f5f6;
     margin: 0 auto;
 }
-.faq_left {
-    float:left;
-    padding:20px;
-}
+
+
 .faq_left_caption {
     color: #b300b3;
     font-weight: 600;
     font-size: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding-top: 60px;
+    margin-left: 30px;
 }
-.faq_left_text {
-    background: #f5f5f6;
+/* Выпадающий блок */
+
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic);
+
+*, ::after, ::before {
+    box-sizing: border-box;
 }
-.faq_left_text_hidden {
+
+
+/* demo контейнер */
+.faq_left {
+    float: left;
+    padding: 20px;
+    width: 500px;
+    
+}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide,
+.hide + label ~ .faq_left, .hidetext {
+    display: none;
+}
+    /* вид текста label */
+    .hide + label {
+        background: #fff;
+        width: 350px;
+        font-weight: 500;
+        padding: 10px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    /* вид текста label при активном переключателе */
+    .hide:checked + label {
+        background: purple;
+        border-bottom: 0;
+    }
+        /* когда чекбокс активен показываем блоки с содержанием  */
+        .hide:checked + label + div {
+            display: block;
+            background: #fff;
+            -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+            -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+            box-shadow: inset 3px 3px 10px #7d8e8f;
+            margin-left: 20px;
+            padding: 10px;
+            /* чуточку анимации при появлении */
+            -webkit-animation: fade ease-in 0.5s;
+            -moz-animation: fade ease-in 0.5s;
+            animation: fade ease-in 0.5s;
+        }
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.hide + label:after {
+    background-color: purple;
+    color: #fff;
+    content: "\002B";
+    display: block;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 3px 25px;
+    text-align: center;
+    width: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.hide:checked + label:after {
+    content: "\2212";
+}
+/* Выпадающий блок */
+
+.faq_right {
+    float: left;
+    margin-top: -110px;
+}
+
+
+/* Innovative Team */
+.contanier_innteam {
+    width: 100%;
+    background: #fff;
+}
+.block_innteam {
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
+}
+.innteam_caption {
+    color: #b300b3;
+    font-weight: 600;
+    font-size: 26px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align:center;
+}
+.innteam_texts {
+    text-align: center;
+    width: 500px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+.innteam_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+.inn_flex {
+    box-shadow: 1px 1px 30px grey;
+}
+.fx_caption {
+    color: #b300b3;
+    font-weight: 600;
+    text-align: center;
+}
+.fx_big {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+.fx_tt {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.inn_flex:first-child {
+    margin-right: 20px;
+}
+
+.inn_flex:last-child {
+    margin-left: 20px;
+}
+.innteam_icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 30px;
+}
+.innteam_icon {
+    width: 25px;
+    height: 25px;
+}
+.innteam_icon:hover {
+    width: 30px;
+    height: 30px;
+    background: #b300b3;
+    border-radius: 25px;
+    box-shadow: 1px 1px 60px grey;
+}
+.innteam_icon:first-child {
+    margin-right: 10px;
+}
+.innteam_icon:last-child {
+    margin-left: 10px;
+}
+
+
+/* Info */
+.contanier_info {
+    width: 100%;
+    background: url(../img/info_big.png);
+    
+}
+
+.block_info  {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+}
+.info_sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.info_section {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.info_section_icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.info_section_caption {
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.info_section_text {
 
 }
