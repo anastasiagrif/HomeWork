@@ -994,3 +994,58 @@ body {
 .info_section_text {
 
 }
+
+
+
+/* Clients */
+
+.contanier_clients {
+    width: 100%;
+    
+}
+.block_clients {
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
+}
+.cli_top {
+	width: 450px;
+    margin: 0 auto;
+}
+.cli_top_caption {
+    color: #b300b3;
+    font-weight: 600;
+    font-size: 26px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align:center;
+}
+.cli_top_text {
+    font-size: 16px;
+    padding-bottom: 30px;
+    text-align:center;
+}
+
+.cli_bot_left {
+	width: 450px;
+    float: left;
+    box-shadow: 1px 1px 30px grey;
+}
+.cli_left_name {}
+.left_name_pic {}
+.cli_name_cap {}
+.cli_name_prof {}
+.cli_left_text {}
+
+
+
+
+
+
+
+.cli_bot_right {
+	width: 450px;
+    float: left;
+    box-shadow: 1px 1px 30px grey;
+}
+.cli_pic {}
